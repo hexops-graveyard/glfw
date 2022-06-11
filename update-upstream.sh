@@ -3,7 +3,7 @@ set -ex
 
 # GLFW
 rm -rf glfw/
-git clone --depth 1 --branch 3.3.6 https://github.com/glfw/glfw
+git clone --depth 1 --branch master https://github.com/glfw/glfw
 cd glfw/
 git rev-parse HEAD > ../VERSION
 
